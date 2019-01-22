@@ -1,6 +1,6 @@
 # emotion-detection
 
-## Start
+### Start
 1. Duplicate `.env.example` and rename one of them to `.env`
 
 ### Get imgur key
@@ -21,5 +21,5 @@
 ### If you want to edit UI
 You can install QtDesigner from [HERE](https://build-system.fman.io/qt-designer-download)
 
-#### On Mac
+#### !!! On Mac
 Run `brew install ffmpeg`
