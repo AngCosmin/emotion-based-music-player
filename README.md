@@ -19,7 +19,7 @@
 `pip install -r requirements.txt --user`
 
 ### If you want to edit UI
-
+You can install QtDesigner from [HERE](https://build-system.fman.io/qt-designer-download)
 
 #### On Mac
 Run `brew install ffmpeg`
