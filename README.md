@@ -1,4 +1,4 @@
-# emotion-detection
+# Emotion based music player
 
 ### Start
 1. Duplicate `.env.example` and rename one of them to `.env`
