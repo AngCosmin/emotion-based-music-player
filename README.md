@@ -23,3 +23,6 @@ You can install QtDesigner from [HERE](https://build-system.fman.io/qt-designer-
 
 #### !!! On Mac
 Run `brew install ffmpeg`
+
+#### TODO
+Convert PHP code from `index.php` to python 
