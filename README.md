@@ -1,5 +1,7 @@
 # Emotion based music player
 
+![1](https://i.imgur.com/0KKIxat.png)
+
 ### Start
 1. Duplicate `.env.example` and rename one of them to `.env`
 
