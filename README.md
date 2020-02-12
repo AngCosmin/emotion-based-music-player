@@ -1,30 +1,9 @@
-# Emotion based music player
+## Emotion based music player
 
-![1](https://i.imgur.com/0KKIxat.png)
+<img src="https://user-images.githubusercontent.com/8146514/71549881-c518e900-29cd-11ea-8e67-c567489fd5d9.png" width="100%">
 
-### Start
-1. Duplicate `.env.example` and rename one of them to `.env`
+This application is a desktop app made with PyQt. It accesses your webcam and continuously checks for your emotions in background. Using the dominant emotion from last minute and YouTube API, it searches for a song, downloads it and adds it to queue.
 
-### Get imgur key
-1. Create an account on imgur  
-2. Go [HERE](https://imgur.com/account/settings/apps) and create an app  
-3. Paste `client id` and `client secret` in `.env`  
-  
-### Get Microsoft Cognitive Services key
-1. Go [HERE](https://azure.microsoft.com/en-us/services/cognitive-services/face/)  
-2. Press `Try free` and get 7 days trial  
-3. Login  
-4. Go [HERE](https://azure.microsoft.com/en-us/try/cognitive-services/my-apis/)
-5. Copy one of these keys in `.env`
+You can also skip the songs if you don't like them and it will play another song for you. The application also has a history, so you don't have to worry about repeating songs.
 
-### Install packages
-`pip install -r requirements.txt --user`
-
-### If you want to edit UI
-You can install QtDesigner from [HERE](https://build-system.fman.io/qt-designer-download)
-
-#### !!! On Mac
-Run `brew install ffmpeg`
-
-#### TODO
-Convert PHP code from `index.php` to python 
+Technologies used: `Python` `PyQt` `Microsoft Cognitive Services` `OpenCV`
